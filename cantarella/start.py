@@ -108,7 +108,7 @@ class script(object):
 <b>⏳ ETA:</b> <code>{eta}</code>
 </blockquote>
 """
-    CAPTION = """<b>⚜️ Powered By : <a href="https://t.me/GHUNAWAT_X">𝔾ℍ𝕌ℕ𝔸𝕎𝔸𝕋_𝕏</a></b>"""
+    CAPTION = """<b>Powered By : <a href="https://t.me/GHUNAWAT_X">𝔾ℍ𝕌ℕ𝔸𝕎𝔸𝕋_𝕏</a></b>"""
     LIMIT_REACHED = """<b>🚫 Daily Limit Exceeded</b>
 <b>Your 10 free saves for today have been used.</b>
 <i>Quota resets automatically after 24 hours from first download.</i>
