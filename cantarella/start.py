@@ -73,7 +73,7 @@ class script(object):
     ABOUT_TXT = """<b>ℹ️ About This Bot</b>
 <blockquote><b>╭────[ 🧩 Technical Stack ]────⍟</b>
 <b>├⍟ 🤖 Bot Name : 𝔾ℍ𝕌ℕ𝔸𝕎𝔸𝕋_𝕏</b>
-<b>├⍟ 👨‍💻 Owner : <a href=https://t.me/Mr_Ghunawat01>Mr_Ghunawat01</a></b>
+<b>├⍟ 👨‍💻 Owner : <a href=https://t.me/Ghunawat_x_bot>Ghunawat_x_bot</a></b>
 <b>├⍟ 📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram Async</a></b>
 <b>├⍟ 🐍 Language : <a href='https://www.python.org/'>Python 3.11+</a></b>
 <b>├⍟ 🗄 Database : <a href='https://www.mongodb.com/'>MongoDB Atlas Cluster</a></b>
@@ -108,7 +108,7 @@ class script(object):
 <b>⏳ ETA:</b> <code>{eta}</code>
 </blockquote>
 """
-    CAPTION = """<b>Powered By : <a href="https://t.me/GHUNAWAT_X">𝔾ℍ𝕌ℕ𝔸𝕎𝔸𝕋_𝕏</a></b>"""
+    CAPTION = """<b>Powered By : <a href="https://t.me/Ghunawat_x_bot">𝔾ℍ𝕌ℕ𝔸𝕎𝔸𝕋_𝕏</a></b>"""
     LIMIT_REACHED = """<b>🚫 Daily Limit Exceeded</b>
 <b>Your 10 free saves for today have been used.</b>
 <i>Quota resets automatically after 24 hours from first download.</i>
@@ -259,7 +259,7 @@ async def send_start(client: Client, message: Message):
         ],
         [
             InlineKeyboardButton('📢 Channel', url="https://t.me/GHUNAWAT_X"),
-            InlineKeyboardButton('👨‍💻 Owner', url="https://t.me/Mr_Ghunawat01")
+            InlineKeyboardButton('👨‍💻 Owner', url="https://t.me/Ghunawat_x_bot")
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -296,7 +296,7 @@ async def send_plan(client: Client, message: Message):
         return await send_force_subscribe(message)
 
     buttons = [
-        [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/Mr_Ghunawat01")],
+        [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/Ghunawat_x_bot")],
         [InlineKeyboardButton("❌ Close Menu", callback_data="close_btn")]
     ]
     await client.send_photo(
