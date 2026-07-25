@@ -107,7 +107,8 @@ async def cancel_login(client: Client, message: Message):
             reply_markup=remove_keyboard
         )
     else:
-        pass
+        await
+    message.continue_propagation() 
 
 async def check_login_state(_, __, message):
     return message.from_user.id in LOGIN_STATE
